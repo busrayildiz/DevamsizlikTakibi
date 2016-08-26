@@ -103,18 +103,6 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
 
-    /* public Cursor getAllDers()
-    {
-        SQLiteDatabase db = this.getWritableDatabase();
-        Cursor res= db.rawQuery("select * from" + TABLE_DERSLER);
-        return ;
-    }*/
-
-
-
-
-
-
     public void insertDevamsizlik(Devamsizlik devamsizlik) {
         SQLiteDatabase db = this.getWritableDatabase();
 

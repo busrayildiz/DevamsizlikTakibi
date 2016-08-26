@@ -122,13 +122,7 @@ public class YonetFragment extends Fragment {
                 });
             }
 
-
-
-
-
-
-
-
+            
         });
         return v;
         }
