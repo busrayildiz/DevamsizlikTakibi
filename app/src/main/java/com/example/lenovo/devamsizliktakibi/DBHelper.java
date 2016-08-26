@@ -167,7 +167,7 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(DBHelper.COL_3,new_maxdv.intValue());
         contentValues.put(DBHelper.COL_6,new_devamsizligim.toString());
         contentValues.put(DBHelper.COL_5,new_devtarih.toString());
-
+//github test
 
     }
 
