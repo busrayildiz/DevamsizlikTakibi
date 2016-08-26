@@ -16,8 +16,6 @@ public class UtilityHelper {
         this.context = context;
     }
 
-
-
     public  void ShowMessage(String msg){
         Toast.makeText(context, msg, LENGTH_LONG).show();
     }
