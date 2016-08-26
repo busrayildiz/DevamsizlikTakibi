@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.devamsizliktakibi.YonetFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/etxt_dersadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ders Adı"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contextClickable="false"
+        android:editable="true"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/eTxt_maxdv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Max.Devamsızlık"
+        android:layout_below="@+id/etxt_dersadi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="true"
+        android:inputType="text"/>
+
+    <Button
+        android:onClick="Sil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sil"
+        android:id="@+id/btn_sil"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_marginBottom="95dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ders Ekle"
+        android:id="@+id/btn_ekle"
+        android:onClick=""
+        android:layout_below="@+id/etxt_dersadi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+
+        android:nestedScrollingEnabled="false" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s_DersSec"
+        android:layout_above="@+id/btn_sil"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

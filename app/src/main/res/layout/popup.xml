@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@color/dim_foreground_material_dark"
+    tools:context="com.example.lenovo.devamsizliktakibi.Pop"
+    android:visibility="visible"
+    android:baselineAligned="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Devamsızlığım"
+        android:id="@+id/devamsızlığım" />
+
+
+
+    <NumberPicker
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:id="@+id/noPickerDV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Devamsızlık Tarihi"
+        android:id="@+id/txt_dev_tarih" />
+
+    <DatePicker
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/datePicker" />
+
+    <Button
+        android:layout_width="199dp"
+        android:layout_height="37dp"
+        android:text="Kaydet"
+        android:id="@+id/btnPopKaydet"
+
+        android:visibility="visible" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DevamsizlikTakibi</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    
+    <string-array name="dersler">
+
+        <item>Matematik</item>
+        <item>Fizik</item>
+        <item>Elektrik</item>
+        <item>Nümerik Analiz</item>
+        <item>Algoritma</item>
+        <item>İstatistik</item>
+
+    </string-array>
+    
+    
+    
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
